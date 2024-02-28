@@ -98,37 +98,8 @@ path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
-```
-```
-from collections import deque
-from collections import defaultdict
 
-def bfs(graph,start,visited,path):
-    queue = deque()
-    path.append(start)
-    queue.append(start)
-    visited[start] = True
-    while len(queue) != 0:
-        tmpnode = queue.popleft()
-        for neighbour in graph[tmpnode]:
-            if visited[neighbour] == False:
-                path.append(neighbour)
-                queue.append(neighbour)
-                visited[neighbour] = True
-    return path
 
-graph = defaultdict(list)
-v,e = map(int,input().split())
-for i in range(e):
-    u,v = map(str,input().split())
-    graph[u].append(v)
-    graph[v].append(u)
-
-start = '0'
-path = []
-visited = defaultdict(bool)
-traversedpath = bfs(graph,start,visited,path)
-print(traversedpath)
 ```
 
 <hr>
@@ -169,12 +140,11 @@ G F <BR>
 
 ### Output:
 
-![image](https://github.com/niraunjana/19AI405ExpNo3/assets/119395610/15456965-2a57-4da3-b892-0411864dab13)
+![image](https://github.com/niraunjana/19AI405ExpNo3/assets/119395610/c4fb3095-f4fd-46d0-bd43-f48f7139e4b3)
 
-![image](https://github.com/niraunjana/19AI405ExpNo3/assets/119395610/78baef1e-101c-4090-af46-ca4519fd2bd7)
+![image](https://github.com/niraunjana/19AI405ExpNo3/assets/119395610/e364833f-aaf6-4fd3-9d16-5e620deef904)
 
 
-<h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
 
