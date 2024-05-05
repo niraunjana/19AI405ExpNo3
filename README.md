@@ -1,6 +1,8 @@
 <h1>ExpNo 3 : Implement Breadth First Search Traversal of a Graph</h1> 
-<h3>Name: NIRAUNJANA GAYATHRI G R</h3>
-<h3>Register Number: 212222230096</h3>
+```
+Name: NIRAUNJANA GAYATHRI G R
+Register Number: 212222230096
+```
 <H3>Aim:</H3>
 <p>To Implement Breadth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -53,10 +55,7 @@ As we can see that every neighbours of node 4 are visited, so move to the next n
 Remove node 4 from the front of queue and visit the unvisited neighbours and push them into queue.
 Now, Queue becomes empty, So, terminate these process of iteration.
 
-
-<hr>
-<h2>Algorithm:</h2>
-<hr>
+### Algorithm:
 <ol>
   <li>Construct a Graph with Nodes and Edges</li>
  <li>Breadth First Uses Queue and iterates through the Queue for Traversal.</li>
@@ -101,9 +100,7 @@ print(traversedpath)
 
 
 ```
-
-<hr>
-<h3>Sample Input</h3>
+### Sample Input
 <hr>
 7 9 <BR>
 A B <BR>
@@ -144,9 +141,8 @@ G F <BR>
 
 ![image](https://github.com/niraunjana/19AI405ExpNo3/assets/119395610/e364833f-aaf6-4fd3-9d16-5e620deef904)
 
-
-<hr>
-<p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
+### Result:
+Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.
 
 
 
